@@ -13,7 +13,7 @@ def test_fibo_0():
 def test_fib_type():
     result_10 = fibo.fib2(10)
     expected_result = [0,1,1,2,3,5,8]
-    assert type(result_10)==expected_result
+    assert type(result_10)==list
     
 #test_fibo_10()
 #test_fibo_0()
